@@ -1,0 +1,496 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    width:100%;
+    font-family:"Be Vietnam Pro";
+    background: #ffffff;
+    margin: 0;
+}
+
+        /*  HEADER      */
+
+header{
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 175px;
+}
+
+.menuMobile{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav a{
+    margin: 10px;
+    color: rgb(35, 44, 81);
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: rgb(143, 148, 167)
+}
+
+header button{
+    width: 134px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(242, 95, 58);
+    border: none;
+    color: white;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    margin-right: 100px;
+}
+
+header button:hover{
+    background: rgb(255, 122, 89);
+}
+
+        /*     MAIN     */
+
+body main div{
+    display: flex;
+}
+
+
+main section img.imgComentarios{
+    height: 70px;
+    width: 70px;
+}
+
+    /*    CONTENEDOR 1    */
+
+.contenedor1_section1{
+    margin-left: 100px;
+    margin-right: 60px;
+}
+
+.contenedor1_section2{
+    margin-right: 100px;
+    padding-right: 25px;
+}
+
+.c1 h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color:rgb(35, 44, 81);
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.c1 p{
+    margin-right: 160px;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(143, 148, 167);
+
+}
+
+        /*button main*/
+main section button, div button{
+    position: static;
+    width: 134px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(242, 95, 58);
+    border: none;
+    color: white;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.contenedor1_section1 button{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.contenedor1_section1 button:hover{
+    background: rgb(255, 122, 89);
+}
+
+/*    CONTENEDOR 2      */
+
+div.c2 section.s1{
+    margin-left: 100px;
+}
+
+.s2{
+    margin-right: 100px;
+}
+
+main div section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+main div.c2 section h2{
+    font-weight: 700;
+    font-size: 36px;
+    color:rgb(35, 44, 81);
+}
+
+section article.contenedorL3{
+    display: flex;
+}
+
+section article.contenedorL3 button{
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main div.c2 section h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(35, 44, 81);
+    margin-left: 20px;
+}
+
+main div.c2 section.s1 p{
+    margin-right: 110px;
+}
+main div.c2 section.s2 p{
+    margin-left: 20px;
+}
+
+
+main div.c2 section p{
+    color: rgb(143, 148, 167);
+}
+
+
+
+section article div{
+    flex-direction: column;
+}
+
+/*       CONTENEDOR 3     */
+
+.c3{
+    flex-direction: column;
+    margin: 25px;
+    align-items: center;
+}
+
+main div.c3 h2{
+    color: rgb(35, 44, 81);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    
+}
+
+main div.c3 h3{
+    color: rgb(35, 44, 81);
+
+}
+
+main div.c3 p{
+    color: rgb(143, 148, 167);
+
+}
+
+main div.contenedorPerfiles section{
+    align-items: center;
+    margin: 20px;
+
+}
+
+.contenedorPerfiles{
+    flex-direction: row;
+    justify-content: center;
+}
+
+button.button_c3{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.button_c3:hover{
+background: rgb(255, 122, 89)
+}
+/*       CONTENEDOR 4     */
+
+.c4{
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    flex-direction: row;
+    width: 100%;
+    background: rgb(242, 95, 58); 
+    color: white;
+
+}
+
+.c4  h2{
+    font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+}
+
+div section.c4 button{
+background: white;
+color: rgb(242, 95, 58); 
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+        /*      FOOTER     */
+
+footer{
+    justify-content: space-around;
+    align-items: center;
+height: 200px;
+display: flex;
+justify-content: space-around;
+background: rgb(29, 30, 37);
+}
+
+footer div img.logo_blanco{
+    margin-bottom: 70px;
+}
+
+footer div nav{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+footer div nav a{
+    color: white;
+}
+
+footer div nav a:hover{
+    color: rgb(242, 95, 58); 
+}
+
+form input{
+    width: 200px;
+    height:40px;
+    font-family: 'Be Vietnam Pro';
+    font-size: 12px;
+    border-radius: 50px;
+    border:none;
+    margin-right: 10px;
+}
+
+.buttonGo{
+    width: 63px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    background: rgb(242, 95, 58); 
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.buttonGo:hover{
+    background: rgb(255, 122, 89) ;
+
+}
+
+footer section p{
+    color: rgb(143, 148, 167);
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 50px;
+    text-align: end;
+}
+
+
+@media (max-width:376px){
+    body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+        /*HEADER*/
+
+    header{
+    justify-content: space-between;
+    }
+
+    header img{
+        padding-left: 10px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    body header img.menuMobile{
+        margin-right: 30px;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+    }
+    
+    header button{
+        display: none;
+    }
+            /*MAIN*/
+        /*Contenedor 1*/
+    main div.c1{
+        flex-wrap: wrap;
+    }
+
+    .c1 h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    main div.c1 img{
+        order: -1;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    main div.c1 section{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    }
+
+    main div.c1 section p{
+    margin: 10px;
+    }
+
+    /*Contenedor 2*/
+    
+    main div.c2{
+    flex-wrap: wrap;
+    }
+
+    main div.c2 section.s1{
+        margin: 0px;
+        text-align: center;
+    }
+
+    
+    main div.c2 section.s1 p{
+    margin: 20px;
+    }
+    
+    main div.c2 section.s2{
+        margin:0px;
+    }
+
+    main div.c2 section.s2 p{
+    margin: 0px;
+    }
+
+    main div.c2 section.s2 button{
+    height: 30px;
+    font-size: 13px;
+    }
+        /*Contenedor 3*/
+    
+    .c3{
+        margin: 0px;
+    }
+    
+    .contenedorPerfiles{
+        flex-wrap: wrap-reverse;
+    }
+
+    .ali{
+        order: 1;
+    }
+
+    .anisha, .richard{
+        display: none;
+    }
+
+    .button_c3{
+        width: 135px;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    /*Contenedor 4*/
+    .c4{
+        flex-direction: column;
+        height: 300px;
+        text-align: center;
+    }
+
+    .c4 h2{
+        margin: 0px 31px;
+    }
+
+    .c4  button{
+        width: 135px;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    /*footer*/
+
+    footer{
+        
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    footer div.orderRedes{
+        width: 100%;
+        order: 1;
+        margin-bottom: 30px;
+        
+    }
+
+    img.redes{
+        width: 30px;
+        height: 30px;
+        margin:0% 5%;
+    }
+
+    footer section.orderSection{
+        order:2;
+        
+    }
+    .orderSection p{
+        width: auto;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    footer div img.logo_blanco {
+    margin: 8% 29%;
+    }
+    
+    footer div nav.nav-bar1, .nav-bar2{
+        width: 100%;
+    } 
+
+    div nav.nav-bar2{
+        margin-bottom: 27%;
+    }
+
+}   
+    
+
